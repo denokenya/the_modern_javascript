@@ -1,5 +1,5 @@
 let year = prompt(
-  "In which year was ECMASCRIPT-2015 specifications pub;ished?"
+  "In which year was ECMASCRIPT-2015 specifications published?"
 );
 
 if (year < 2015) {
