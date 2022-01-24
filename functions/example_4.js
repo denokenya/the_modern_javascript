@@ -5,4 +5,5 @@ const power = (base, exponent) => {
   }
   return result;
 };
-console.log(power(2, 10));
+
+export default power;
