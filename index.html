@@ -20,9 +20,20 @@
 </head>
 <body>
     <h1>This is an HTML Canvas </h1>
+    <input value="Click me" onclick="countRabbits()" type="button">
+    <input type="button" id="elem" value="Click Me DOM" >
     <canvas id="asteroids" width="400" height="400"></canvas>
   
-    <script   src="classes/example_2.js">
+    <script>
+        function countRabbits(){
+            for (let i=1; i<=3;i++){
+                alert("Rabbit Number" + i);
+            }
+        }
+        function sayThanks(){
+            alert('Thanks');
+        }
+        elem.sayThanks;
        
     </script>
 </body>
